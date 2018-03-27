@@ -4,7 +4,7 @@ line_currently = []
     puts "The line is currently empty."
   else
     kat_deli.each.with_index(1) do |name, number|
-    line_currently <<  "#{number}. #{name}".push
+    line_currently <<  "#{number}. #{name}"
   end
   puts "The line is currently: "line_currently
 end
