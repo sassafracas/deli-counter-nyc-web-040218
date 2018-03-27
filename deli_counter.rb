@@ -21,8 +21,7 @@ def now_serving(katz_deli)
   else
     katz_deli.each do |customer|
     puts "Currently serving #{customer}."
-
     end
-    katz_deli.delete_at(0)
+    katz_deli.delete
   end
 end
