@@ -9,3 +9,7 @@ line_currently = []
   puts "The line is currently: " + line_currently.join(" ")
   end
 end
+
+def take_a_number(katz_deli, customer)
+  katz_deli << customer
+  puts "Welcome, #{customer}. You are number #{katz_deli.count} in line."
