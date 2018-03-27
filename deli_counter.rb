@@ -6,6 +6,6 @@ line_currently = []
     katz_deli.each.with_index(1) do |name, number|
     line_currently.push("#{number}. #{name}")
   end
-  puts "The line is currently:" + line_currently.join(",")
+  puts "The line is currently: " + line_currently.join(",")
   end
 end
